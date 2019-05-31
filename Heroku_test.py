@@ -26,9 +26,9 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    user_report_channel = 583669060265574410
-    send_report_channel = 577664307597410325
-    role_channel = 583922163879510026
+    user_report_channel = 583172383792431105
+    send_report_channel = 583668837623267344
+    role_channel = 583924369374445589
 
                       #Scald Bot test's test
     if message.channel.id == int(user_report_channel):
